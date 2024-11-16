@@ -1,24 +1,27 @@
 .Button {
     font-family: 'Roboto', sans-serif;
-    border-radius: 30px;
+    border-radius: 35px;
     border: transparent;
     text-align: center;
     padding-left: 40px;
     padding-right: 40px;
-    display: flex;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
 }
 
 .Button.download {
     background-color: white;
     color: black;
     font-size: 28px;
+    padding: 16px;
     margin-bottom: 30px;
 }
 
 .Button.browser {
     background-color: #23272a;
     color: white;
-    padding: 20px;
+    padding: 16px;
     padding-left: 40px;
     padding-right: 40px;
     font-size: 28px;

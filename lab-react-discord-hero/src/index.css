@@ -1,14 +1,17 @@
 :root {
     line-height: 1.5;
     font-weight: 400;
-    display: block;
+    display: flex;
     position: relative;
     color-scheme: light dark;
-    color: rgba(255, 255, 255, 0.87);
     background-color: #404fec;
+    color: white;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
 }
   
 .Background {
@@ -29,12 +32,16 @@
     align-items: center;
     padding: 20px;
     gap: 80%;
-    z-index: 1;
+    z-index: 10;
+    background-color: transparent;
 }
   
 .intro-text {
-    margin-left: -100px;
+    position: absolute; /* Fix it to the page */
+    top: 50%; /* Center vertically */
+    left: 50px; /* Fixed to the left with some margin */
+    transform: translateY(-50%); /* Vertically align the content */
     text-align: left;
-    width: 55%;
-    height: 30px;
+    max-width: 500px;
+    color: white;
 }

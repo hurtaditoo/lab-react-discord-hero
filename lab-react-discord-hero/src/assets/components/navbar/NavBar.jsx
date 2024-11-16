@@ -1,8 +1,8 @@
 import "./NavBar.css"
-import menuIcon from "../../assets/menu-icon.png"
+import menuIcon from "../../../assets/img/menu-icon.png"
 
 function Menu( ) {
-    return <img src={menuIcon} className="hamburger-menu" alt="menu-icon"/>
+    return <img src={menuIcon} className="menu" alt="Menu Icon"/>
 }
 
 export default Menu
